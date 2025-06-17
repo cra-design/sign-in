@@ -268,9 +268,15 @@
 
     <div class="container">
 
-  <h1 property="name" id="wb-cont" dir="ltr" class="gc-thickline">Sign in to your CRA account</h1>
+  <h1 property="name" id="wb-cont" dir="ltr" class="gc-thickline">Sign in to the tax information web service</h1>
 
-  <p>Sign in or register to access My Account, My Business Account or Represent a Client.</p>
+  <p>The Tax information web services currently include the following applications: </p>
+	    <ul>
+		    <li>Auto-fill my return, used to get tax information for individual tax returns</li>
+		    <li>T2 Auto-fill, used to get tax information for corporate tax returns</li>
+		    <li>Notice of assessment (NOA)</li>
+		    <li>Account Information Retrieval Service</li>
+	    </ul>
 
 
   <div class="mrgn-bttm-lg">
@@ -281,14 +287,7 @@
 
 
 
-    <!--<section class="alert alert-info">
-      <details>
-
-        <summary>Simplified sign-in process</summary>
-        <p>The CRA has introduced a simplified sign-in process to make it easier to access the My Account, My Business Account, and Represent a Client portals with a single sign-in. If you previously registered for these portals, use your existing credentials and select a sign-in option below to access your CRA account.</p>
-
-      </details>
-    </section>-->
+   
 
     <section data-ajax-replace="https://www.canada.ca/content/dam/cra-arc/includes/cra-login.txt#generic-en"></section>
 
@@ -300,7 +299,7 @@
       <div class="panel-body">
         <ul class="list-unstyled cnjnctn-type-or cnjnctn-md mrgn-tp-lg">
           <li class="cnjnctn-col">
-            <h2 class="mrgn-tp-sm h4">Sign in to your CRA account<span class="wb-inv">: Option 1</span></h2>
+            <h2 class="mrgn-tp-sm h4">Sign in to CRA's tax information web service<span class="wb-inv">: Option 1</span></h2>
             <p>Sign in with your existing credential:</p>
             <details>
               <summary>Before you sign in </summary>
@@ -322,15 +321,22 @@
               <p><a class="btn btn-primary btn-lg btn-block p-sm-3 mya" href="https://ams-sga.cra-arc.gc.ca/gol-ged/awsc/amss/entry?target=login&amp;lang=en&amp;program=spoe&amp;idp=cms" rel="noreferrer noopener" data-gc-analytics-customclick="CRA|ARC:Option 2 button click:CRA login button"><span class="h4"><span class="fas fa-sign-in-alt fa-fw fa-lg fa-pull-left mrgn-rght-sm"></span>CRA user ID and password<span class="wb-inv">: Sign in</span></span></a></p>
 
 
-              <p><a class="btn btn-primary btn-lg btn-block p-sm-3" href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/provincial-partner.html" rel="noreferrer noopener"><span class="h4"><span class="fas fa-id-card fa-lg fa-pull-left mrgn-rght-sm"></span>Provincial partner (BC, AB)<span class="wb-inv">: Sign in</span></span></a></p>
+          <!--    <p><a class="btn btn-primary btn-lg btn-block p-sm-3" href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/provincial-partner.html" rel="noreferrer noopener"><span class="h4"><span class="fas fa-id-card fa-lg fa-pull-left mrgn-rght-sm"></span>Provincial partner (BC, AB)<span class="wb-inv">: Sign in</span></span></a></p>-->
             </div>
 
           </li>
           <li class="cnjnctn-col">
             <h2 class="mrgn-tp-sm h4">Register for a CRA account <span class="wb-inv">: Option 2</span></h2>
-            <div class="mrgn-tp-md">
+		  <p>To use this service, you must <strong>already</strong> be registered for a CRA account.</p>
+		  <p>If you have not already registered:</p> 
+		  <ol>
+			  <li><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html">Register for a CRA account</a></li>
+			  <li>Once you have completed the registration process, return to the service you are attempting to use and sign in</li>
+		  </ol>
+		  
+           <!-- <div class="mrgn-tp-md">
               <p><a class="btn btn-default btn-lg btn-block p-sm-3 mya" href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html" rel="noreferrer noopener"><span class="h4"><span class="fas fa-user-edit fa-lg fa-pull-left mrgn-rght-sm"></span>Register for a CRA account</span></a></p>
-            </div>
+            </div>-->
           </li>
         </ul>
 
@@ -378,7 +384,7 @@
           <p class="mrgn-tp-md"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/multi-factor-authentication.html">More help with multi-factor authentication</a></p>
         </details>
 
-        <details id="ajax-expired-security-code">
+    <!--    <details id="ajax-expired-security-code">
           <summary>You have not received your CRA security code</summary>
           <p class="mrgn-tp-md">If your CRA security code has been lost or has not arrived after 10&nbsp;business days, you can either: </p>
           <ul>
@@ -390,14 +396,14 @@
             <li>Use the document verification service instead to verify your identity</li>
             <li>Sign in to request a new CRA security code to be sent by mail</li>
           </ul>
-        </details>
+        </details>-->
 
-        <details id="ajax-change-information">
+      <!--  <details id="ajax-change-information">
           <summary>Update your information with the CRA</summary>
           <p>Inform the CRA about changes to your direct deposit or contact information, such as address, phone number or name changes.</p>
           <a href="https://www.canada.ca/en/revenue-agency/services/update-information-cra.html">Update your information with the CRA</a>
         </details>
-      </div>
+      </div>-->
 
       <div class="col-sm-6">
         <details id="ajax-recover-locked-account">
@@ -405,7 +411,7 @@
           <div data-ajax-replace="/content/canadasite/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/locked-account.html#ajax-account-locked"></div>
         </details>
 
-        <details id="ajax-revoked">
+      <!--  <details id="ajax-revoked">
           <summary>Your CRA user ID and password have been revoked</summary>
           <p class="mrgn-tp-md">If your CRA user ID and password have been revoked, you can regain access to your account in either of the following ways:</p>
           <ul>
@@ -413,14 +419,14 @@
             <li><a href="https://www.canada.ca/en/revenue-agency/corporate/contact-information.html#assistance">Contact us</a> to register with a new CRA user ID and password</li>
           </ul>
           <p><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html#section3a">More help with revoked CRA user ID and password</a></p>
-        </details>
+        </details>-->
 
-        <details id="ajax-change-sign-in-option">
+       <!-- <details id="ajax-change-sign-in-option">
           <summary>Change the option you sign in with</summary>
           <p>If you registered with a <strong>provincial partner</strong>, you can also create a CRA user ID and password or use a Sign-In Partner.</p>
           <p>If you registered with a <strong>CRA user ID and password</strong>, you can sign in with your CRA user ID and password and <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html#section3c">revoke your credential</a> so you can register with a different sign-in option or create a new CRA user ID and password.</p>
           <p>If you registered with a <strong>Sign-In Partner</strong>, you can sign in to your current Sign-In Partner and <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/sign-in-partners.html#section5">switch to a different Sign-In Partner</a>.</p>
-        </details>
+        </details>-->
       </div>
     </div>
 
@@ -438,7 +444,21 @@
   </section>
 </div>
 
-<div class="container">
+
+<div class="visible-xs visible-sm">&nbsp;</div>
+<div class="well brdr-0 brdr-rds-0">
+  <section class="container">
+    <h2 class="mrgn-tp-0">Related information</h2>
+    <h3 class="h5 wb-inv">Related information</h3>
+    
+      <ul>
+	   <li><a href="https://www.canada.ca/en/revenue-agency/services/e-services/about-auto-fill-return.html">Auto-fill my return</a></li>   
+	      <li><a href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/about-t2-auto-fill.html">T2 Auto-fill</li>
+	      <li><a href="https://www.canada.ca/en/revenue-agency/services/e-services/about-express-noa.html">Notice of Assessment (NOA)</a></li>
+	      <li><a href="https://www.canada.ca/en/revenue-agency/services/e-services/about-information-retrieval.html">Account Information Retrieval Service</li>
+      </ul>
+		    
+<!--<div class="container">
   <h2>Other CRA and Government of Canada accounts</h2>
   <div class="wb-eqht row gc-srvinfo">
     <div class="col-lg-4 col-md-6">
@@ -454,7 +474,7 @@
       </section>
     </div>
   </div>
-</div>
+</div>-->
 
 
 </div>
