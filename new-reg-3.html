@@ -300,12 +300,6 @@
 	<h2>Before you start</h2>
 <p>During registration, your session will expire after 18 minutes of inactivity. <strong>Gather all the documents you need before you begin</strong>.</p>
 		
-  <!--  <ol class="lst-stps ld-zr">
-       
-        <li class="lst-item">
-            <div class="row">
-                <div class="col-md-8">
-                    <h2 class="h3 mrgn-tp-0" id="h-1">Gather your documents</h2>-->
 		<details><summary>Documents you will need for registration</summary>
                     <p>When you register<span class="all-mya"> with a CRA user ID and password or a Sign-In Partner</span>, you will need <strong>all</strong> of the following:</p>
                     <ul class="fa-ul">
@@ -355,7 +349,9 @@
 
 
 				<h2 class="mrgn-tp-xl" id="h-2">Start your registration</h2>
-		<p class="mrgn-lft-lg"><a class="btn btn-call-to-action" href="https://cra-design.github.io/sign-in/new-reg-5.html">Register now</a></p>
+		<p class="mrgn-lft-lg"><a href="#register" aria-controls="centred-popup" class="wb-lbx" role="button">Register now</a></p>
+
+		
 				<h2 class="mrgn-tp-xl" id="h-3">How the registration process works</h2>
 		<p>For more information, read the details of each step of the registration process:</p>
 		<ol class="lst-stps ld-zr">
@@ -386,14 +382,63 @@
 
                         </details>
                     </details>
-<!--THREE BUTTON OPTIONS BEGIN
-                    <p><strong>Register with one of these options</strong></p>
 
+
+			<section id="register" class="mfp-hide modal-dialog modal-content overlay-def">
+                    <header class="modal-header">
+                        <h2 class="modal-title">Choose a sign-in option to start registration</h2>
+                    </header>
+                    <div class="modal-body">
 	<div class="row wb-eqht">
 <div class="col-md-4">
 	<div class="panel panel-default hght-inhrt">
   <div class="panel-body">
+  <h1 property="name" id="wb-cont" dir="ltr" class="gc-thickline">Register for a CRA account</h1>
+    <p>The option you register with will be the same option you use each time you sign in. Make a selection below to begin.</p>
 
+		<details class="mrgn-bttm-xl"><summary>Gather your documents before you begin</summary>
+			<p>During registration, your session will expire after 18 minutes of inactivity. Gather your documents before you begin to avoid your session timing out.</p>
+                    <p>When you register<span class="all-mya"> with a CRA user ID and password or a Sign-In Partner</span>, you will need <strong>all</strong> of the following:</p>
+                    <ul class="fa-ul">
+                        <li><span class="fas fa-check text-success fa-li"></span>Your social insurance number (SIN)<br><details id="ajax-no-sin">
+                                <summary>If you do not have a SIN</summary>
+                                <p>If you don't have a SIN, we will also accept:</p>
+                                <ul>
+                                    <li>A temporary tax number (TTN)</li>
+                                    <li>An individual tax number (ITN)</li>
+                                    <li class="all-rac">A non-resident representative number (NRRN), <span class="all">if you are registering for a CRA account to access Represent a Client</span><br><details>
+                                            <summary>Applying for a non-resident representative number (NRRN)</summary>
+                                            <p>If you are a non-resident representative living in the United States, you can register for a CRA account to access Represent a Client with a NRRN to access information and services on behalf of individuals and businesses.</p>
+                                            <ol>
+                                                <li>Submit <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/rc391.html">Form RC391, Application for a Canada Revenue Agency Non-Resident Representative Number (NRRN)</a> and provide supporting documentation to prove your identity</li>
+                                                <li>Wait until you receive a letter in the mail with your NRRN</li>
+                                                <li>Register for a CRA account to access Represent a Client with your NRRN instead of a SIN</li>
+                                            </ol>
+                                        </details>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><span class="fas fa-check text-success fa-li"></span>Your date of birth</li>
+                        <li><span class="fas fa-check text-success fa-li"></span>Amounts you <strong>reported</strong> on your most recent tax return
+                            <details>
+                                <summary>Which tax return you can use</summary>
+                                <p>The income tax and benefit return you use must meet <strong>both</strong> of the following conditions:</p>
+                                <ul class="mrgn-bttm-md">
+                                    <li>It was filed and assessed</li>
+                                    <li>It is your most recent tax return in the last 2&nbsp;years</li>
+                                </ul>
+                                <p>Use only the amounts that you <strong>reported</strong> on your return, even if your return was reassessed and the amounts have changed.</p>
+                            </details>
+                        </li>
+                    </ul>
+                    <p class="mrgn-tp-md">For faster access to your CRA account, you will also need a mobile device with a working camera and <strong>one</strong> of the following:</p>
+                    <ul class="mrgn-bttm-md">
+                        <li>Your Canadian passport</li>
+                        <li>Your Canadian driver's license</li>
+                        <li>Your provincial or territorial photo ID card</li>
+                    </ul>
+                    <p class="mya hidden">When you register with a provincial partner, you <strong>only</strong> need your SIN.</p></details>
 <h4 class="mrgn-tp-0 h5">Register with a CRA user ID and password</h4>
 	  <p>Register and sign in directly through the CRA.</p>
                     <div class="mrgn-tp-md"><a class="btn btn-primary btn-lg btn-block p-sm-3" href="https://ams-sga.cra-arc.gc.ca/gol-ged/awsc/amss/entry?target=register&amp;lang=en&amp;program=spoe&amp;idp=cms" rel="noreferrer noopener"><span class="h4"><span class="fas fa-sign-in-alt fa-fw fa-lg fa-pull-left mrgn-rght-sm"></span>CRA user ID and password</span></a></div>
@@ -524,14 +569,17 @@
                 </div>
 		 </div>
 </div>
-						THREE BUTTON SIGN-IN OPTIONS END-->
+                    </div>
+				<p><a href="#h-3">Learn more about how to register</a></p>
+                </section>			
+
 
 			<li class="lst-item"><h3 class="mrgn-tp-0">Verify your identity</h3>
 			<p>After choosing your sign-in option, you will choose how to verify your identity, by either:</p>
-			<ol>
+			<ul>
 				<li>Using the <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html#section1">document verification service</a> (instant authorization when registering)</li>
 				<li><a href="">Getting a CRA security code</a> (receive a code in the mail to finish your registration)</li>
-			</ol>
+			</ul>
 			</li>
 						<!--EXISTING PAGE ID VERIFICATION DETAILS BEGIN
                     <h2 class="h3 mrgn-tp-0" id="h-3">Verify your identity</h2>
@@ -617,7 +665,7 @@
 			EXISTING PAGE MFA DETAILS END-->
 			
 		</ol>
-			<h3 class="mrgn-tp-0">For Represent a Client only: get authorized</h3>
+			<h3>For Represent a Client only: get authorized</h3>
 				<p>If you are registering to represent a client, friend, or family member, you will also need to <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/representatives-request-authorization.html">get authorized to access someone else's information</a>.</p></li>
 
 			<!--EXISTING PAGE RAC DETAILS BEGIN
