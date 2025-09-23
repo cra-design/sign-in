@@ -258,7 +258,7 @@
                 <!--Step 3 begins-->
                <h2>Start your registration</h2>
                <p class="mrgn-lft-lg"><a class="btn btn-call-to-action" href="https://cra-design.github.io/sign-in/new-reg-5.html">Register now</a></p>
-               <p><a href="#register" aria-controls="centred-popup" class="wb-lbx" role="button">Learn more about how to register</a></p>
+               <p><a href="#register" aria-controls="full-screen" class="overlay-lnk" role="button">Learn more about how to register</a></p>
                <!--Step 3 ends-->
 
                <!--Step 4 starts-->
@@ -319,12 +319,13 @@
                     </div>
                 </section>
 
-                <section id="register" class="mfp-hide modal-dialog modal-content overlay-def">
+                <section id="register" class="wb-overlay modal-content overlay-def wb-popup-full">
                     <header class="modal-header">
                         <h2 class="modal-title">Learn more about how to register</h2>
                     </header>
                     <div class="modal-body">
-                        <h2 class="modal-title">List of Sign-In Partners</h2>
+                        <!--
+                        <h3>List of Sign-In Partners</h3>
                         <div data-ajax-replace="https://www.canada.ca/content/canadasite/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/sign-in-partners.html#ajax-sign-in-partners"></div>
                         <h3>Non-resident tax account number</h3>
                         <p>Your non-resident tax account number (NR number) is made up of 3 letters and 6 numbers, for example NRX 123456.</p>
@@ -352,6 +353,57 @@
                         <h3>One-time passcode by passcode grid</h3>
                         <p>The passcode grid is a table made up of numbered rows and lettered columns, similar to a Bingo card.</p>
                         <p>We will ask for a specific combination of rows and columns to create your one-time passcode.</p>
+                        -->
+                        <h3 class="mrgn-tp-xl" id="h-3">How the registration process works</h3>
+                        <p>For more information, you can read the details of how each step of the registration process works.</p>
+                        <ol class="lst-stps ld-zr">
+                            <li class="lst-item">
+                                <h3 class="mrgn-tp-0">Choose a sign-in option to register with</h3>
+                                <p>The option you choose to register with will be how you sign in to your CRA account. Make the selection that works best for you.</p>
+                                <details>
+                                    <summary>Find the best option for your situation</summary>
+                                    <p>Learn more about the sign-in options:</p>
+                                    <dl>
+                                        <dt><span class="fas fa-check text-success"></span> Sign-In Partner</dt>
+                                        <dd>This option lets you use the <strong>same</strong> banking sign-in information you use with other online financial accounts. You must already have an online account with one of our <a class="wb-lbx" role="button" aria-controls="sign-in-partners" href="#sign-in-partners">Sign-In Partners<span class="mrgn-lft-xs far fa-question-circle"></span></a>.</dd>
+                                        <dt><span class="fas fa-check text-success"></span> CRA user ID and password</dt>
+                                        <dd>This option lets you create a username and password that you use with your CRA account.</dd>
+                                    </dl>
+                                    <div class="all-mya">
+                                        <dl>
+                                            <dt><span class="fas fa-check text-success"></span> Provincial partner</dt>
+                                            <dd>If you already have a BC Services Card or an Alberta.ca Account, you can use them to immediately access your CRA account.</dd>
+                                        </dl>
+                                    </div>
+                                    <dl>
+                                        <dt><span class="fas fa-times text-danger"></span> GC Key</dt>
+                                        <dd class="mrgn-tp-md">You <strong>cannot</strong> use GC Key to sign in to your CRA account.<br>You can use GC Key with other Government of Canada departments and agencies. </dd>
+                                    </dl>
+                                    <details>
+                                        <summary>Your sign-in information is anonymous</summary>
+                                        <p>The Government of Canada uses anonymous credentials to allow users to communicate securely with online Government of Canada services. An anonymous credential is one that does not contain any personally identifiable information.</p>
+                                        <ol>
+                                            <li class="lst-item">
+                                                <h3 class="mrgn-tp-0">Begin verifying your identity</h3>
+                                                <p>After choosing your sign-in option, you will <a href="#">choose how to verify your identity</a>.</p>
+                                            </li>
+                                            <li class="lst-item">
+                                                <h3 class="mrgn-tp-0">Enroll in multi-factor authentication (MFA)</h3>
+                                                <p><a href="#">Choose one of three options to enroll in MFA</a>.</p>
+                                            </li>
+                                            <li class="lst-item">
+                                                <h3 class="mrgn-tp-0">Complete your identity verification</h3>
+                                                <p>Based on the identity verification method you chose earlier, you will either <a href="#">use the document verification service or get a CRA security code</a>.</p>
+                                            </li>
+                                            <li class="lst-item">
+                                                <h3 class="mrgn-tp-0">For Represent a Client only: get authorized</h3>
+                                                <p>If you are registering to represent a client, friend, or family member, <a href="#">get authorized to access someone else's information</a>.</p>
+                                            </li>
+                                        </ol>
+                                    </details>
+                                </details>
+                            </li>
+                        </ol>
                     </div>
                 </section>
 
