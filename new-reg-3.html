@@ -367,62 +367,64 @@
                         <h2 class="modal-title">Choose a sign-in option to start registration</h2>
                     </header>
                     <div class="modal-body">
+                        <div>
+                            <h3 class="mrgn-tp-0 h4">Register for a CRA account</h3>
+                            <p>The option you register with will be the same option you use each time you sign in. Make a selection below to begin.</p>
+                            <details class="mrgn-bttm-xl">
+                                <summary>Gather your documents before you begin</summary>
+                                <p>During registration, your session will expire after 18 minutes of inactivity. Gather your documents before you begin to avoid your session timing out.</p>
+                                <p>When you register<span class="all-mya"> with a CRA user ID and password or a Sign-In Partner</span>, you will need <strong>all</strong> of the following:</p>
+                                <ul class="fa-ul">
+                                    <li>
+                                        <span class="fas fa-check text-success fa-li"></span>Your social insurance number (SIN)
+                                        <br>
+                                        <details id="ajax-no-sin2">
+                                            <summary>If you do not have a SIN</summary>
+                                            <p>If you don't have a SIN, we will also accept:</p>
+                                            <ul>
+                                                <li>A temporary tax number (TTN)</li>
+                                                <li>An individual tax number (ITN)</li>
+                                                <li class="all-rac">A non-resident representative number (NRRN), <span class="all">if you are registering for a CRA account to access Represent a Client</span>
+                                                    <br>
+                                                    <details>
+                                                        <summary>Applying for a non-resident representative number (NRRN)</summary>
+                                                        <p>If you are a non-resident representative living in the United States, you can register for a CRA account to access Represent a Client with a NRRN to access information and services on behalf of individuals and businesses.</p>
+                                                        <ol>
+                                                            <li>Submit <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/rc391.html">Form RC391, Application for a Canada Revenue Agency Non-Resident Representative Number (NRRN)</a> and provide supporting documentation to prove your identity</li>
+                                                            <li>Wait until you receive a letter in the mail with your NRRN</li>
+                                                            <li>Register for a CRA account to access Represent a Client with your NRRN instead of a SIN</li>
+                                                        </ol>
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li><span class="fas fa-check text-success fa-li"></span>Your date of birth</li>
+                                    <li><span class="fas fa-check text-success fa-li"></span>Amounts you <strong>reported</strong> on your most recent tax return
+                                        <details>
+                                            <summary>Which tax return you can use</summary>
+                                            <p>The income tax and benefit return you use must meet <strong>both</strong> of the following conditions:</p>
+                                            <ul class="mrgn-bttm-md">
+                                                <li>It was filed and assessed</li>
+                                                <li>It is your most recent tax return in the last 2&nbsp;years</li>
+                                            </ul>
+                                            <p>Use only the amounts that you <strong>reported</strong> on your return, even if your return was reassessed and the amounts have changed.</p>
+                                        </details>
+                                    </li>
+                                </ul>
+                                <p class="mrgn-tp-md">For faster access to your CRA account, you will also need a mobile device with a working camera and <strong>one</strong> of the following:</p>
+                                <ul class="mrgn-bttm-md">
+                                    <li>Your Canadian passport</li>
+                                    <li>Your Canadian driver's license</li>
+                                    <li>Your provincial or territorial photo ID card</li>
+                                </ul>
+                                <p class="mya hidden">When you register with a provincial partner, you <strong>only</strong> need your SIN.</p>
+                            </details>
+                        </div>
                         <div class="row wb-eqht-grd">
-                            <div class="col-md-4">
+                            <div id="cra-id" class="col-md-4">
                                 <div class="panel panel-default h-100">
                                     <div class="panel-body">
-                                         <h3 class="mrgn-tp-0 h5">Register for a CRA account</h3>
-                                        <p>The option you register with will be the same option you use each time you sign in. Make a selection below to begin.</p>
-                                        <details class="mrgn-bttm-xl">
-                                            <summary>Gather your documents before you begin</summary>
-                                            <p>During registration, your session will expire after 18 minutes of inactivity. Gather your documents before you begin to avoid your session timing out.</p>
-                                            <p>When you register<span class="all-mya"> with a CRA user ID and password or a Sign-In Partner</span>, you will need <strong>all</strong> of the following:</p>
-                                            <ul class="fa-ul">
-                                                <li>
-                                                    <span class="fas fa-check text-success fa-li"></span>Your social insurance number (SIN)
-                                                    <br>
-                                                    <details id="ajax-no-sin2">
-                                                        <summary>If you do not have a SIN</summary>
-                                                        <p>If you don't have a SIN, we will also accept:</p>
-                                                        <ul>
-                                                            <li>A temporary tax number (TTN)</li>
-                                                            <li>An individual tax number (ITN)</li>
-                                                            <li class="all-rac">A non-resident representative number (NRRN), <span class="all">if you are registering for a CRA account to access Represent a Client</span>
-                                                                <br>
-                                                                <details>
-                                                                    <summary>Applying for a non-resident representative number (NRRN)</summary>
-                                                                    <p>If you are a non-resident representative living in the United States, you can register for a CRA account to access Represent a Client with a NRRN to access information and services on behalf of individuals and businesses.</p>
-                                                                    <ol>
-                                                                        <li>Submit <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/rc391.html">Form RC391, Application for a Canada Revenue Agency Non-Resident Representative Number (NRRN)</a> and provide supporting documentation to prove your identity</li>
-                                                                        <li>Wait until you receive a letter in the mail with your NRRN</li>
-                                                                        <li>Register for a CRA account to access Represent a Client with your NRRN instead of a SIN</li>
-                                                                    </ol>
-                                                                </details>
-                                                            </li>
-                                                        </ul>
-                                                    </details>
-                                                </li>
-                                                <li><span class="fas fa-check text-success fa-li"></span>Your date of birth</li>
-                                                <li><span class="fas fa-check text-success fa-li"></span>Amounts you <strong>reported</strong> on your most recent tax return
-                                                    <details>
-                                                        <summary>Which tax return you can use</summary>
-                                                        <p>The income tax and benefit return you use must meet <strong>both</strong> of the following conditions:</p>
-                                                        <ul class="mrgn-bttm-md">
-                                                            <li>It was filed and assessed</li>
-                                                            <li>It is your most recent tax return in the last 2&nbsp;years</li>
-                                                        </ul>
-                                                        <p>Use only the amounts that you <strong>reported</strong> on your return, even if your return was reassessed and the amounts have changed.</p>
-                                                    </details>
-                                                </li>
-                                            </ul>
-                                            <p class="mrgn-tp-md">For faster access to your CRA account, you will also need a mobile device with a working camera and <strong>one</strong> of the following:</p>
-                                            <ul class="mrgn-bttm-md">
-                                                <li>Your Canadian passport</li>
-                                                <li>Your Canadian driver's license</li>
-                                                <li>Your provincial or territorial photo ID card</li>
-                                            </ul>
-                                            <p class="mya hidden">When you register with a provincial partner, you <strong>only</strong> need your SIN.</p>
-                                        </details>
                                         <h4 class="mrgn-tp-0 h5">Register with a CRA user ID and password</h4>
                                         <p>Register and sign in directly through the CRA.</p>
                                         <div class="mrgn-tp-md">
@@ -447,7 +449,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div id="sign-partner" class="col-md-4">
                                 <div class="panel panel-default h-100">
                                     <div class="panel-body">
                                         <h3 class="mrgn-tp-0 h5">Register using your online banking information</h3>
@@ -509,7 +511,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div id="prov-partner" class="col-md-4">
                                 <div class="panel panel-default h-100">
                                     <div class="panel-body">
                                         <h3 class="mrgn-tp-0 h5">Register using your Alberta or BC account</h3>
