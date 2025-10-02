@@ -1,6 +1,22 @@
 [
     {
-      "origin": "", 
-      "destination": ""
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/cra-login-services.html"
+    }, 
+    {
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/about-cra-sign-in-services.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/cra-login-services/about-cra-sign-in-services.html"
+    }, 
+    {
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/about-account.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/digital-services-individuals/about-account.html"
+    }, 
+    {
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/about-business-account.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/digital-services-businesses/business-account/about-business-account.html"
+    }, 
+    {
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/represent-a-client/about-represent-a-client.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/represent-a-client/about-represent-a-client.html"
     }
 ]
