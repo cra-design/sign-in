@@ -40,17 +40,17 @@ defaults:
     values:
     layout: default
     lang: en
-     share: true
-     sitemenu: true
-     sitesearch: true
-     feedback: true
-     feedbackData:
+    share: true
+    sitemenu: true
+    sitesearch: true
+    feedback: true
+    feedbackData:
       theme: "Taxes"
-     feedbackPath: https://www.canada.ca/etc/designs/canada/wet-boew/assets/feedback/page-feedback-en.html
-     privacyUrl: https://www.canada.ca/en/revenue-agency/corporate/privacy-notice.html
-     termsURL: https://www.canada.ca/en/transparency/terms.html
-     sitemenuPath: https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html
-     contextualFooter:
+    feedbackPath: https://www.canada.ca/etc/designs/canada/wet-boew/assets/feedback/page-feedback-en.html
+    privacyUrl: https://www.canada.ca/en/revenue-agency/corporate/privacy-notice.html
+    termsURL: https://www.canada.ca/en/transparency/terms.html
+    sitemenuPath: https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html
+    contextualFooter:
       title: "Canada Revenue Agency (CRA)"
       links:
         - text: "Contact the CRA"
