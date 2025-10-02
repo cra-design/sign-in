@@ -11,10 +11,10 @@ remote_theme: wet-boew/gcweb-jekyll
 
 # Files excluded from Jekyll builds
 exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
-- gcweb-jekyll.gemspec
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - gcweb-jekyll.gemspec
 
 # Site settings
 assets: https://wet-boew.github.io/themes-dist
