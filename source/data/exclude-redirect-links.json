@@ -18,5 +18,29 @@
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/represent-a-client/about-represent-a-client.html", 
       "destination": "https://cra-design.github.io/sign-in/en/represent-a-client/about-represent-a-client.html"
+    }, 
+    {
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/cra-login-services/help-cra-sign-in-services.html"
+    }, 
+    {
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/sign-in-partners.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/cra-login-services/help-cra-sign-in-services/sign-in-partners.html"
+    }, 
+    {
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/provincial-partners.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/cra-login-services/help-cra-sign-in-services/provincial-partners.html"
+    }, 
+    {
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/cra-login-services/help-cra-sign-in-services/verify-identity.html"
+    }, 
+    {
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/cra-login-services/help-cra-sign-in-services/cra-userid-password.html"
+    }, 
+    {
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/multi-factor-authentication.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/cra-login-services/help-cra-sign-in-services/multi-factor-authentication.html"
     }
 ]
