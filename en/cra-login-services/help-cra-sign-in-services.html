@@ -25,7 +25,7 @@ notedlinks:
 ---
 
 <div data-wb-urlmapping='{"type=myacct": [{"action": "selectInput", "source": "#acct-options", "value": "fltr_mya"}, { "action": "addClass", "source": ".url-fltr:not([data-wb-tags~=\"fltr_mya\"])", "class": "wb-tgfltr-out" }], "type=mybusacct": [{"action": "selectInput", "source": "#acct-options", "value": "fltr_myba"}, { "action": "addClass", "source": ".url-fltr:not([data-wb-tags~=\"fltr_myba\"])", "class": "wb-tgfltr-out" }], "type=rac": [{"action": "selectInput", "source": "#acct-options", "value": "fltr_rac"}, { "action": "addClass", "source": ".url-fltr:not([data-wb-tags~=\"fltr_rac\"])", "class": "wb-tgfltr-out" }]}'></div>
-<p>Find help with using My Account, My Business Account and Represent a Client. Learn about registering for and managing your account, updating your personal and business information, and getting and giving authorization.</p>
+<p>Find help with using your CRA account and accessing all the information within it. Learn about registering for and managing your account, updating your personal and business information, and getting and giving authorization.</p>
 <section id="filteredFAQ" class="wb-tagfilter provisional wb-filter" data-wb-filter='{"selector": ".tag-fltr", "section": ".wb-tagfilter-items", "uiTemplate": "#searchFilter"}'>
     <div class="row" id="searchFilter">
         <div class="col-md-4">
@@ -53,6 +53,10 @@ notedlinks:
                             <input type="radio" name="accounts" id="RacRadio" value="fltr_rac" class="wb-tagfilter-ctrl" />
                             <label for="RacRadio">Represent a Client</label>
                         </div>
+                      <div class="radio">
+                            <input type="radio" name="accounts" id="MybaRadio" value="fltr_nrwt" class="wb-tagfilter-ctrl" />
+                            <label for="MybaRadio">Non-Resident Withholding Tax</label>
+                        </div>
                     </fieldset>
                     <input type="submit" value="Submit" class="wb-inv" aria-disabled="true" />
                 </form>
@@ -64,16 +68,16 @@ notedlinks:
         <div class="col-md-8 pull-right">
             <hr>
             <section class="wb-tagfilter-items">
-                <h2 class="h3 mrgn-tp-md url-fltr" data-wb-tags="fltr_mya fltr_myba fltr_rac">Registration</h2>
+                <h2 class="h3 mrgn-tp-md url-fltr" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">Registration</h2>
                 <div class="mrgn-tp-md mrgn-lft-sm mrgn-rght-sm row wb-eqht-grd">
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html?account=mya">Register for a CRA account</a></h3>
                             <p>Registration instructions, sign-in options</p>
                             <p class="wb-inv">Register, Registration, Sign, Set up, Create, Enroll, Get, Account, Access, Need, New, make</p>
                         </div>
                     </div>
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html" class="stretched-link">Verify your identity</a></h3>
                             <p>The document verification service, CRA security code</p>
@@ -84,47 +88,54 @@ notedlinks:
             </section>
 
             <section class="wb-tagfilter-items">
-                <h2 class="h3 mrgn-tp-md url-fltr" data-wb-tags="fltr_mya fltr_myba fltr_rac">About the CRA account portals</h2>
+                <h2 class="h3 mrgn-tp-md url-fltr" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">About the CRA account portals</h2>
                 <div class="mrgn-tp-md mrgn-lft-sm mrgn-rght-sm row wb-eqht-grd">
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/about-cra-sign-in-services.html">About your CRA account</a></h3>
-                            <p>What you can access, availability, privacy commitments</p>
+                            <p>Register once to access all your secure information your individual, business, and other accounts with one credential </p>
                             <p class="wb-inv"></p>
                         </div>
                     </div>
                     <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/about-account.html" class="stretched-link">About My Account</a></h3>
-                            <p>What's new, available services</p>
+                            <p>View and manage your personal income tax and benefit information </p>
                             <p class="wb-inv"></p>
                         </div>
                     </div>
                     <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_myba">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/about-business-account.html" class="stretched-link">About My Business Account</a></h3>
-                            <p>What's new, available services</p>
+                            <p>View and manage your business tax and program account information </p>
                             <p class="wb-inv"></p>
                         </div>
                     </div>
                     <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_rac">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/represent-a-client/about-represent-a-client.html" class="stretched-link">About Represent a Client</a></h3>
-                            <p>What's new, available services</p>
+                            <p>Access the tax-related information of the individuals, businesses, and trusts who authorize you</p>
                             <p class="wb-inv"></p>
                         </div>
                     </div>
                     <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_rac">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/represent-a-client/help-trust-account/about-trust-account.html" class="stretched-link">About My Trust Account</a></h3>
-                            <p>Register for access as a primary trustee, available services</p>
+                            <p>Manage trust information online if you are an authorized representative </p>
+                            <p class="wb-inv">non, resident, residence, part, xiii, 13</p>
+                        </div>
+                    </div>
+                  <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_nrwt">
+                        <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
+                            <h3 class="h4 mrgn-tp-0"><a href="" class="stretched-link">About Non-Resident Withholding Tax</a></h3>
+                            <p>Manage your Part XIII non-resident withholding tax account</p>
                             <p class="wb-inv"></p>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="wb-tagfilter-items">
-                <h2 class="h3 mrgn-tp-md url-fltr" data-wb-tags="fltr_mya fltr_myba fltr_rac">Review and update your information</h2>
+                <h2 class="h3 mrgn-tp-md url-fltr" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">Review and update your information</h2>
                 <div class="mrgn-tp-md mrgn-lft-sm mrgn-rght-sm row wb-eqht-grd">
                     <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
@@ -147,7 +158,7 @@ notedlinks:
                             <p class="wb-inv">Client, Information, Review, Update, Updating, Change, Changing, Modify, view, RepID, BN, GroupID, View, Transactions, List, Authorize, Authorization, Manage, Delete, Notices, Employees, Representatives, Suspend, Cancel, Information, Delete, Mail, Online, business, name, administrators, ID, number</p>
                         </div>
                     </div>
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba  fltr_rac">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba  fltr_rac fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/direct-deposit.html" class="stretched-link">Direct Deposit</a></h3>
                             <p>Sign up for or change your direct deposit information</p>
@@ -157,44 +168,44 @@ notedlinks:
                 </div>
             </section>
             <section class="wb-tagfilter-items">
-                <h2 class="h3 mrgn-tp-md url-fltr" data-wb-tags="fltr_mya fltr_myba fltr_rac">Access your CRA account</h2>
+                <h2 class="h3 mrgn-tp-md url-fltr" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">Access your CRA account</h2>
                 <div class="mrgn-tp-md mrgn-lft-sm mrgn-rght-sm row wb-eqht-grd">
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/sign-in-services-availability.html" class="stretched-link">CRA account availability</a></h3>
                             <p>Hours of service, browser requirements</p>
                             <p class="wb-inv">Available, Availability, Error, Access, Sign-in, Time, hours, Unable, Login, Browser, Java, Cache, Service, Site, Working, Maintenance, Open, Closed, Security, Operation, Website, Down, Today, Loading, Err.028, Troubleshooting, cookies</p>
                         </div>
                     </div>
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html" class="stretched-link">About CRA user ID and password</a></h3>
                             <p>How to use or recover a CRA user ID and password, change your sign-in option</p>
                             <p class="wb-inv">CRA, ID, userID, password, create, credential, sign-in, login, forgotten, recover, revoked, options, security, questions, answers, account, get, access, registration, register, set, change, new, information, locked, canada[.ca]/cra-revoked-userid</p>
                         </div>
                     </div>
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/sign-in-partners.html" class="stretched-link">About Sign-In Partners</a></h3>
                             <p>When to use a Sign-In Partner, your privacy, switching Sign-In Partners</p>
                             <p class="wb-inv">Sign-in, Partners, Interac, Banking, Financial, Institution, Information, Credential, userID, ID, Password, Card, Number, Switch, Credit, New, Old, Login, Link, Government, See, Share, Safe, Security, Privacy, Gckey, key</p>
                         </div>
                     </div>
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/provincial-partners.html" class="stretched-link">About provincial partners</a></h3>
                             <p>When to use a provincial partner</p>
                             <p class="wb-inv">Provincial, Partners, ID, Government, Identification, Sign-in, Login, British, BC, Services, Card, Alberta.ca, Account, Register, Access, Information, Digital, myalberta</p>
                         </div>
                     </div>
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/multi-factor-authentication.html" class="stretched-link">Multi-factor authentication (MFA)</a></h3>
                             <p>MFA options, what to do if you can't receive your one-time passcode</p>
                             <p class="wb-inv">MFA, Multi, factor, Authentication, Enroll, One-time, Passcodes, Authenticator, Locked , out, Wrong, Call, Text, Bingo, QR, Codes, Number, Phone, Grid, New, Telephone, Old, Changed, Changes, Update, Unlocked</p>
                         </div>
                     </div>
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/locked-account.html" class="stretched-link">Locked account</a></h3>
                             <p>Recover a locked account, avoid getting locked out</p>
@@ -204,9 +215,9 @@ notedlinks:
                 </div>
             </section>
             <section class="wb-tagfilter-items">
-                <h2 class="h3 mrgn-tp-md url-fltr" data-wb-tags="fltr_mya fltr_myba fltr_rac">Manage your CRA account</h2>
+                <h2 class="h3 mrgn-tp-md url-fltr" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">Manage your CRA account</h2>
                 <div class="mrgn-tp-md mrgn-lft-sm mrgn-rght-sm row wb-eqht-grd">
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_rac fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/keep-sign-in-services-secure.html" class="stretched-link">Keep your CRA account secure</a></h3>
                             <p>Manage security options, monitor for suspicious activity</p>
@@ -220,7 +231,7 @@ notedlinks:
                             <p class="wb-inv">client, request, authorization, authorized, receive, access, repID, ID, RAC, Identifier, Representative, Business number, BN, Group, groupID, AUT-01, Aut-1, Aut01, Deceased, Dead, Estate, Trustee, Form, Add, Poa, Power, Attorney, Certification, Signature, page</p>
                         </div>
                     </div>
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/tax/representative-authorization/overview.html" class="stretched-link">Authorize a representative</a></h3>
                             <p>Who can be a representative, your responsibilities, levels of access you can give, ways to authorize</p>
@@ -234,7 +245,7 @@ notedlinks:
                             <p class="wb-inv">Authorization, Authorized, Representative, Confirm, Request, access</p>
                         </div>
                     </div>
-                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba">
+                    <div class="col-md-6 tag-fltr url-fltr px-2" data-wb-tags="fltr_mya fltr_myba fltr_nrwt">
                         <div class="panel panel-default panel-body position-relative brdr-rds-0 hght-inhrt">
                             <h3 class="h4 mrgn-tp-0"><a href="https://www.canada.ca/en/revenue-agency/services/tax/representative-authorization/cancel.html" class="stretched-link">Cancel a representative's authorization</a></h3>
                             <p>How to cancel your representative's authorization</p>
@@ -261,4 +272,5 @@ notedlinks:
     </div>
 </section>
 <hr class="brdr-bttm">
+
 <p><span class="fas fa-phone fa-flip-horizontal fa-2x fa-pull-left mrgn-rght-sm"></span>If you cannot find what you are looking for, <a href="https://www.canada.ca/en/revenue-agency/corporate/contact-information.html">contact the CRA</a> for assistance.</p>
