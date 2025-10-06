@@ -100,6 +100,10 @@ notedlinks:
                     </details>
                     <p class="mrgn-tp-md"><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html">More help with CRA user ID and password</a></p>
                 </details>
+              <details>
+                <summary>If you can't access your account</summary>
+                <p>If you lost access to your CRA account, going through the <a href="">registration process again</a> may help you get your access back.</p>
+              </details>
                 <details id="ajax-did-not-receive-passcode">
                     <summary>You did not receive your one-time passcode</summary>
                     <h3 class="h5">If you have a new phone number</h3>
@@ -123,23 +127,38 @@ notedlinks:
                         <li>Sign in to request a new CRA security code to be sent by mail</li>
                     </ul>
                 </details>
+                  </div>
+            <div class="col-sm-6">
                 <details id="ajax-change-information">
                     <summary>Update your information with the CRA</summary>
                     <p>Inform the CRA about changes to your direct deposit or contact information, such as address, phone number or name changes.</p>
                     <a href="https://www.canada.ca/en/revenue-agency/services/update-information-cra.html">Update your information with the CRA</a>
                 </details>
-            </div>
-            <div class="col-sm-6">
+            
                 <details id="ajax-recover-locked-account">
                     <summary>Your account is locked</summary>
-                    <div data-ajax-replace="https://www.canada.ca/content/canadasite/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/locked-account.html#ajax-account-locked"></div>
+                  <!--  <div data-ajax-replace="https://www.canada.ca/content/canadasite/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/locked-account.html#ajax-account-locked"></div>-->
+                <p>Your account will become locked if you enter the wrong information too many times for any of the following:</p>
+    <ul>
+        <li>CRA user ID or password</li>
+        <li>One-time passcode for multi-factor authentication (MFA)
+            <details>
+                <summary>You do not need to call if you are only temporarily locked out</summary>
+                <section data-ajax-replace="/content/canadasite/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/multi-factor-authentication.html#ajax-temporary"></section>
+            </details>
+        </li>
+        <li>Security questions</li>
+        <li>CRA security code</li>
+        <li>The document verification service</li>
+    </ul>
+    <p>You may be able to <a href="">regain access to your CRA account</a> with new sign-in information or <a href="/en/revenue-agency/corporate/contact-information.html#assistance">contact us</a> to have your account unlocked.</p>
                 </details>
                 <details id="ajax-revoked">
                     <summary>Your CRA user ID and password have been revoked</summary>
                     <p class="mrgn-tp-md">If your CRA user ID and password have been revoked, you can regain access to your account in either of the following ways:</p>
                     <ul>
                         <li>Use a different sign-in option</li>
-                        <li><a href="https://www.canada.ca/en/revenue-agency/corporate/contact-information.html#assistance">Contact us</a> to register with a new CRA user ID and password</li>
+                        <li>Go through the <a href="">registration process </a>again to get a new CRA user ID and password</li>
                     </ul>
                     <p><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html#section3a">More help with revoked CRA user ID and password</a></p>
                 </details>
@@ -180,4 +199,5 @@ notedlinks:
             </section>
         </div>
     </div>
+
 </div>
