@@ -4,6 +4,10 @@
       "destination": "https://cra-design.github.io/sign-in/en/cra-login-services.html"
     }, 
     {
+      "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html", 
+      "destination": "https://cra-design.github.io/sign-in/en/cra-login-services/register-cra-sign-in-services.html"
+    }, 
+    {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/about-cra-sign-in-services.html", 
       "destination": "https://cra-design.github.io/sign-in/en/cra-login-services/about-cra-sign-in-services.html"
     }, 
