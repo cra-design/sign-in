@@ -8,7 +8,7 @@ auth:
   labelExtended: "CRA sign in"
   link: "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html"
 altLangPage: "https://www.canada.ca/fr/agence-revenu/services/services-electroniques/services-ouverture-session-arc/inscrire-services-ouverture-session-arc.html"
-dateModified: 2025-05-06
+dateModified: 2025-10-06
 dateIssued: 2024-09-25
 breadcrumbs: # By default the Canada.ca crumbs is already set
   - title: "Canada Revenue Agency (CRA)"
@@ -178,7 +178,9 @@ css:
                     <li class="lst-item">
                         <h3 id="h-3-a">Gather your documents</h3>
                                         <p>During registration, your session will expire after 18 minutes of inactivity, and your progress will not be saved. Gather all the documents you need before you begin.</p>
-<p>If you are registering using a CRA user ID and password or a Sign-In Partner, you will need:</p>
+<details>
+  <summary>Documents you need to have ready</summary>
+  <p>If you are registering using a CRA user ID and password or a Sign-In Partner, you will need:</p>
         
                     <ul class="fa-ul">
                         <li><span class="fas fa-check text-success fa-li"></span>Your social insurance number (SIN)
@@ -205,9 +207,9 @@ css:
                             </details>
                         </li>
                         <li><span class="fas fa-check text-success fa-li"></span>Your date of birth</li>
-                        <li><span class="fas fa-check text-success fa-li"></span>Amounts you reported on your most recent tax return
-                            <details>
-                                <summary>Which tax return you can use</summary>
+                        <li><span class="fas fa-check text-success fa-li"></span>Amounts you reported on your most recent tax return:
+                            <!--<details>
+                                <summary>Which tax return you can use</summary>-->
                                 <p>The income tax and benefit return you use must meet <strong>all</strong> of the following conditions:</p>
                                 <ul class="mrgn-bttm-md">
                                     <li>It is your most recent tax return</li>
@@ -215,7 +217,13 @@ css:
                                     <li>It has been assessed</li>
                                 </ul>
                                 <p>Use only the amounts that you <strong>reported</strong> on your return, even if your return was reassessed and the amounts have changed.</p>
-                                <p><a href="#">What to do if you have not filed a return in the last 2 years</a></p>
+                                <p><a href="#ajax-not-filed">What to do if you have not filed a return in the last 2 years</a></p>
+                                <details class="mrgn-bttm-lg">
+                                <summary>Where to find your tax return amounts</summary>    
+                       <p>You can find the amounts you reported on your tax return on either:
+                       <ul><li>Your Notice of Assessment</li>
+                       <li>A copy of the return you sent us</li>
+                       </ul></p></details>
                             </details>
                         </li>
                     <li><span class="fas fa-check text-success fa-li"></span>Optional: For faster access, a mobile device with a working camera and <strong>one</strong> of the following:
@@ -227,12 +235,7 @@ css:
                         </li>
                     </ul>
                     <p>If you register using a provincial partner (British Columbia or Alberta), you only need your SIN.</p>
-                       <details class="mrgn-bttm-lg">
-                                <summary>Where to find your tax return amounts</summary>    
-                       <p>You can find the amounts you reported on your tax return on either:
-                       <ul><li>Your Notice of Assessment</li>
-                       <li>A copy of the return you filed</li>
-                       </ul></p></details>
+                </details>
                     </li>
                     <li class="lst-item">
                         <h3 class="mrgn-tp-0">Choose a registration option</h3>
@@ -419,7 +422,7 @@ css:
                                     <li>It has been assessed</li>
                                 </ul>
                                 <p>Use only the amounts that you <strong>reported</strong> on your return, even if your return was reassessed and the amounts have changed.</p>
-                                <p><a href="#">What to do if you have not filed a return in the last 2 years</a></p>
+                                <p><a href="#ajax-not-filed">What to do if you have not filed a return in the last 2 years</a></p>
                             </details>
                         </li>
                     <li><span class="fas fa-check text-success fa-li"></span>Optional: For faster access, a mobile device with a working camera and <strong>one</strong> of the following:
