@@ -9,7 +9,7 @@ auth:
   labelExtended: "CRA sign in"
   link: "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html"
 altLangPage: "https://www.canada.ca/fr/agence-revenu/services/services-electroniques/services-ouverture-session-arc/inscrire-services-ouverture-session-arc.html"
-dateModified: 2025-10-06
+dateModified: 2025-10-09
 dateIssued: 2024-09-25
 # pageclass: "cnt-wdth-lmtd"
 breadcrumbs: # By default the Canada.ca crumbs is already set
@@ -38,19 +38,16 @@ css:
             <p>Registering for a CRA account allows you to access and change your tax information with the CRA. You only need to register one time to access your personal, business, and other accounts.</p>
             <h2 class="h3">If you have a CRA account</h2>
             <p>If you have <strong>already registered</strong> for My Account, My Business Account or Represent a Client using a CRA user ID and password or a Sign-In Partner, you should <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html">sign in with your existing credential</a>.</p>
+          <p>If you don't see your business, representative, or other CRA accounts when you sign in, find out how to <a href="#add-account">add your other CRA accounts</a>.</p>
             <details>
                 <summary>Change the option you sign in with</summary>
 <p class="mrgn-tp-lg">If you registered with a <strong>provincial partner</strong>, you can also create a CRA user ID and password or use a Sign-In Partner by going through the registration process and choosing a second sign-in option.</p>
                     <h3 class="h4">If you can still sign in</h3>
-                    <p>If you registered with a <strong>CRA user ID and password</strong>, you can sign in and <a href="#">revoke your credential</a>. In your account, you can then create a new CRA user ID and password or register with a Sign-In Partner instead.</p>
+                    <p>If you registered with a <strong>CRA user ID and password</strong>, you can sign in and change your existing CRA user ID and password. If you want to register with a Sign-In Partner instead, you will have to go through the registration process again using your existing MFA option..</p>
                     <p>If you registered with a <strong>Sign-In Partner</strong>, you can sign in with your current Sign-In Partner and <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/sign-in-partners.html#section5">switch to a different Sign-In Partner</a>. If you want to register with a CRA user ID and password instead, you will have to go through the registration process again using your existing MFA option.</p>
                     <h3 class="h4">If you cannot sign in</h3>
                     <p>No matter what sign-in option you originally chose, as long as you can still access your existing MFA option, you can regain access and change your sign-in option by going through the registration process again.</p>
             
-              
-              <!--  <p>If you registered with a <strong>provincial partner</strong>, you can also create a CRA user ID and password or use a Sign-In Partner.</p>
-                <p>If you registered with a <strong>CRA user ID and password</strong>, you can sign in with your CRA user ID and password and <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html#section3c">revoke your credential</a> so you can register with a different sign-in option or create a new CRA user ID and password.</p>
-                <p>If you registered with a <strong>Sign-In Partner</strong>, you can sign in with your current Sign-In Partner and <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/sign-in-partners.html#section5">switch to a different Sign-In Partner</a>.</p>-->
             </details>
             <h3 class="h4">If you can't access your account</h3>
             <p>If you lost access to your CRA account, <strong>going through the registration process again</strong> may help you get your access back.</p>
@@ -59,8 +56,8 @@ css:
                 <p>You must have access to your existing MFA information to regain access to your account. If you don't, <a href="https://www.canada.ca/en/revenue-agency/corporate/contact-information.html%23assistance&pagetitle=Contact%20us">contact us</a>.</p>  
             </section>
             <details>
-                <summary>Regain access to your CRA account</summary>
-                <p id="regain_access">You may be able to regain access to your CRA account with new sign-in information (a new credential) if:</p>
+                <summary id="regain_access">Regain access to your CRA account</summary>
+                <p>You may be able to regain access to your CRA account with new sign-in information (a new credential) if:</p>
                 <ul>
                     <li>You forgot your CRA user ID or password</li>
                     <li>You forgot the answers to your security questions</li>
@@ -91,6 +88,7 @@ css:
                         <summary>What you need to have ready</summary>
                         <p>If you are registering using a CRA user ID and password or a Sign-In Partner, you will need:</p>
                         <ul class="fa-ul">
+                          <li><span class="fas fa-check text-success fa-li"></span>Your date of birth</li>
                             <li><span class="fas fa-check text-success fa-li"></span>Your social insurance number (SIN)
                                 <br>
                                 <details id="ajax-no-sin1">
@@ -114,30 +112,25 @@ css:
                                     </ul>
                                 </details>
                             </li>
-                            <li><span class="fas fa-check text-success fa-li"></span>Your date of birth</li>
-                            <li><span class="fas fa-check text-success fa-li"></span>Amounts you <strong>reported</strong> on your most recent tax return
-                            <!--<details>
-                                <summary>Which tax return you can use</summary>-->
-                                <p>The income tax and benefit return you use must meet <strong>all</strong> of the following conditions:</p>
+                            <li><span class="fas fa-check text-success fa-li"></span>Amounts you reported on your most recent tax return that is both:
                                 <ul class="mrgn-bttm-md">
-                                    <li>It is your most recent tax return</li>
-                                    <li>It is either your 2023 or 2024 return</li>
-                                    <li>It has been assessed</li>
+                                    <li>Your <strong></strong>most recent, assessed</strong> income tax and benefit return</li>
+                                    <li>Your return for either 2023 or 2024</li>
                                 </ul>
                                 <p>Use only the amounts that you <strong>reported</strong> on your return, even if your return was reassessed and the amounts have changed.</p>
-                                <p><a href="#not-filed">If you have not filed your taxes in the last 2 years</a></p>
-                                <details class="mrgn-bttm-lg">
+                                <p><a href="#not-filed">If you have not filed your taxes in the last 2 years or more</a></p>
+                               <!-- <details class="mrgn-bttm-lg">
                                     <summary>Where to find your tax return amounts</summary>    
                                     <p>You can find the amounts you reported on your tax return on either:</p>
                                     <ul>
                                         <li>Your Notice of Assessment</li>
                                         <li>A copy of the return you sent us</li>
                                     </ul>
-                                </details>
+                                </details>-->
                             </li>
                           <li><span class="fas fa-check text-success fa-li"></span>At least 1 <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/multi-factor-authentication.html#section1">multi-factor authentication (MFA) option</a> to provide a passcode each time you sign in</li>
-                            <li><span class="fas fa-check text-success fa-li"></span>Optional: <!--For faster access,-->
-                              <br>For immediate access<!-- to your account-->, verify your identity with a mobile device with a <!--working--> camera and an accepted piece of ID
+                            <li><span class="fas fa-check text-success fa-li"></span>For immediate access (optional):
+                              <br>Verify your identity with a mobile device with a camera and an accepted piece of ID
                               <details><summary>What government-issued photo ID you can use</summary>
                               <p>You can use <strong>one</strong> of the following to get immediate access to your CRA account:
                                 <ul class="mrgn-bttm-md">
@@ -154,20 +147,20 @@ css:
                     <h3 class="mrgn-tp-0">Choose a registration option</h3>
                     <p>The option you register with will be the option you use every time you sign in to your CRA account.</p>
                     <details>
-                        <summary>Find the best registration option for your situation</summary>
-                        <p>Learn more about the sign-in options:</p>
+                        <summary>Learn more about your registration options</summary>
+                        <p>Learn more about the sign-in options you can choose from:</p>
                         <dl>
                             <dt><span class="fas fa-check text-success"></span> Sign-In Partner</dt>
-                            <dd>This option lets you use the <strong>same</strong> banking sign-in information you use with other online financial accounts. You must already have an online account with one of our <a class="wb-lbx" role="button" aria-controls="sign-in-partners" href="#sign-in-partners">Sign-In Partners<span class="mrgn-lft-xs far fa-question-circle"></span></a>.<br class="mrgn-tp-lg">
-                            Learn more: <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/sign-in-partners.html">About Sign-In Partners</a></dd>
+                            <dd>This option lets you use the <strong>same</strong> banking sign-in information you use with other online financial accounts. You must already have an online account with one of our <a class="wb-lbx" role="button" aria-controls="sign-in-partners" href="#sign-in-partners">Sign-In Partners<span class="mrgn-lft-xs far fa-question-circle"></span></a>.
+                            <p>Learn more: <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/sign-in-partners.html">About Sign-In Partners</a></p></dd>
                             <dt><span class="fas fa-check text-success"></span> CRA user ID and password</dt>
-                            <dd>This option lets you create a username and password that you use with your CRA account.<br>
-                            Learn more: <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html">About your CRA user ID and password</a></dd>
+                            <dd>This option lets you create a username and password that you use with your CRA account.
+                            <p>Learn more: <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html">About your CRA user ID and password</a></p></dd>
                         </dl>
                         <div>
                             <dl>
                                 <dt><span class="fas fa-check text-success"></span> Provincial partner</dt>
-                                <dd>If you already have an Alberta.ca Account or a BC Services Card, you can use them to immediately access your CRA account.<br>Learn more: <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/provincial-partners.html">About provincial partners</a></dd>
+                                <dd>If you already have an Alberta.ca Account or a BC Services Card, you can use them to immediately access your CRA account.<p>Learn more: <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/provincial-partners.html">About provincial partners</a></p></dd>
                             </dl>
                         </div>
                         <dl>
@@ -180,22 +173,8 @@ css:
                         </details>
                     </details>
                 </li>
-                <li class="lst-item">
-                    <h3>Verify your identity</h3>
-                    <p>You will need to verify your identity using one of the following methods:</p>
-                    <ul class="list-unstyled cnjnctn-type-or cnjnctn-xs">
-                        <li class="cnjnctn-col mrgn-tp-0">
-                            <h4 class="mrgn-tp-sm text-muted">Document verification service<span class="wb-inv">: Option 1 of 2</span></h4>
-                            <p>Use a mobile device to get <strong>immediate</strong> access to your CRA account</p>
-                        </li>
-                        <li class="cnjnctn-col">
-                            <h4 class="mrgn-tp-sm text-muted">CRA security code<span class="wb-inv">: Option 2 of 2</span></h4>
-                            <p>Receive a security code in the mail within <strong>10 business days</strong></p>
-                        </li>
-                    </ul>
-                    <p><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html">Learn more about how to verify your identity</a>   </p>                
-                </li>
-                <li class="lst-item">
+
+              <li class="lst-item">
                     <h3>Enroll in multi-factor authentication (MFA)</h3>
                     <p>Every time you sign in, you must enter a one-time passcode.</p>
                    <p>If you have registered before, you must use your existing MFA option.</p>
@@ -208,17 +187,35 @@ css:
                     <p>We recommend you choose <strong>at least 2 methods</strong> when you register, to avoid losing access to your account. </p>
                     <p><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/multi-factor-authentication.html">Learn more about MFA options</a></p>
                 </li>
+              
                 <li class="lst-item">
-                    <h3>Add business, representative, and other accounts</h3>
-                    <p>Once you have registered for your CRA account, you can sign in to add business, representative, or certain other accounts you have to your Welcome page. You will access all of them using the same sign-in.</p>
+                    <h3>Verify your identity</h3>
+                    <p>You will need to verify your identity using one of the following methods:</p>
+                    <ul class="list-unstyled cnjnctn-type-or cnjnctn-xs">
+                        <li class="cnjnctn-col mrgn-tp-0">
+                            <h4 class="mrgn-tp-sm text-muted">Document verification service<span class="wb-inv">: Option 1 of 2</span></h4>
+                            <p>Use a mobile device to get <strong>immediate</strong> access to your CRA account</p>
+                        </li>
+                        <li class="cnjnctn-col">
+                            <h4 class="mrgn-tp-sm text-muted">CRA security code<span class="wb-inv">: Option 2 of 2</span></h4>
+                            <p>Receive a security code in the mail within <strong>10 business days</strong><br>
+                            <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/change-your-address.html">Make sure your address is up to date</a></p>
+                        </li>
+                    </ul>
+                    <p><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html">Learn more about how to verify your identity</a>   </p>                
+                </li>
+    
+                <li class="lst-item">
+                    <h3 id="add-account">Add business, representative, and other accounts</h3>
+                    <p>Once you have registered for your CRA account, you can <strong>sign in to add</strong> business, representative, or certain other accounts you have to your Welcome page. You will access all of them using the same sign-in.</p>
                     <p>Learn about accessing your accounts for the first time:</p>
                     <dl class="dl-horizontal">
                         <dt>My Business Account</dt>
-                        <dd><a href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/about-business-account.html#section2">How to add a business account to your Welcome page</a></dd>
+                        <dd><a href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/about-business-account.html#section2">How to add a business account</a></dd>
                         <dt>Represent a Client</dt>
-                        <dd><a href="https://www.canada.ca/en/revenue-agency/services/e-services/represent-a-client/about-represent-a-client.html#section2">How to add a representative account to your Welcome page</a> <br> <p>If you are registering to represent a client, friend, or family member, you will also need to <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/representatives-request-authorization.html">get authorized to access someone else's information</a>.</p></dd>
+                        <dd><a href="https://www.canada.ca/en/revenue-agency/services/e-services/represent-a-client/about-represent-a-client.html#section2">How to add a representative account</a> <br> <p>If you want to represent a client, friend, or family member, you will also need to <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/representatives-request-authorization.html">get authorized to access someone else's information</a>.</p></dd>
                         <dt>Non-Resident Withholding Tax</dt>
-                        <dd><a href="https://cra-design.github.io/sign-in/source/exit-intent-e.html">How to add a non-resident withholding tax account to your Welcome page</a></dd>     
+                        <dd><a href="https://cra-design.github.io/sign-in/source/exit-intent-e.html">How to add a non-resident withholding tax account</a></dd>     
                     </dl>
                 </li>
             </ol>
@@ -235,9 +232,17 @@ css:
             <div class="col-sm-6">
                 <details id="ajax-not-filed">
                     <summary id="not-filed">If you have not filed your taxes</summary>
-                    <p>If you have not filed your taxes for the current or previous tax year, you will not be able to register for a CRA account using a CRA user ID and password or a Sign-In Partner.</p>
+                 <p>To register for a CRA account with a Sign-In Partner or a CRA user ID and password, you must have filed your taxes for <strong>either</strong>: </p>
+<ul><li>The current tax year </li>
+<li>The previous tax year </li>
+</ul>
+<p>If you have never filed your taxes, or have not filed your taxes in the last 2 years, you cannot register for a CRA account until you do. </p>
+<p>Learn how to file: <a href="https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/get-ready-taxes.html">Get ready to do your taxes</a></p>
+<p><strong>Exception:</strong> If you live in British Columbia or Alberta, you can register for a CRA account using a provincial partner, even if you have never filed your taxes. </p>
+
+                   <!-- <p>If you have never filed your taxes, or have not filed your taxes for the current or previous tax year, you will not be able to register for a CRA account using a CRA user ID and password or a Sign-In Partner.</p>
                     <p>For information on how to file, go to: <a href="https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/get-ready-taxes.html">Get ready to do your taxes</a>.</p>
-                    <p>If you live in British Columbia or Alberta, you can register for a CRA account using a provincial partner.</p>
+                    <p>If you live in British Columbia or Alberta, you can register for a CRA account using a provincial partner.</p>-->
                 </details>
             </div>
             <div class="col-sm-6">
