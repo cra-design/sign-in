@@ -1,5 +1,13 @@
 [
     {
+      "origin": "https://ams-sga.cra-arc.gc.ca/gol-ged/awsc/amss/entry", 
+      "destination": "https://cra-design.github.io/sign-in/en/task-success.html"
+    }, 
+    {
+      "origin": "https://ams-sga-cra-arc.fjgc-gccf.gc.ca/gol-ged/awsc/amss/commonDomain/w", 
+      "destination": "https://cra-design.github.io/sign-in/en/task-success.html"
+    }, 
+    {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html", 
       "destination": "https://cra-design.github.io/sign-in/en/cra-login-services.html"
     }, 
